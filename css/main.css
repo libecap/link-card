@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5, 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: block;
+  background-color: #dcd4cd;
+}
+
+section {
+  display: inline-block;
+  background-color: #cabdb2;
+  border-style: solid;
+  border-color: #785439;
+  border-radius: 3px;
+}
+
+h2 {
+  color: #512200;
+  display:block;
+}
+
+p {
+  color: #512200;
+  display: inline-block;
+}
+dl {
+  display: inline-block;
+  color: #512200;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+dt {
+  display: inline-block;
+}
+dd {
+  font-style: italics;
+  display: inline-block;
+}
+a{
+  color: #f0eee8;
+  background-color: #785439;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+
+- *Typefaces*: `Georgia`, `Dosis`
+- *Text sizes*: `1.5rem`, `1.125rem`, `1rem`, `.875rem`
+- *Line heights*: `1.5`, `1.5rem`
+- *Paddings*: `1rem`, `.4em .75em .5em`
+- *Margins*: `0 0 1rem`
+- *Colours*: `#785439`, `#cabdb2`, `#512200`, `#9a816d`, `#dcd4cd`, `#f0eee8`
+- *Border widths*: `3px`, `2px`
+- *Border radii*: `3px`, `8px`
+- *Expected classes*: `.link-card`
