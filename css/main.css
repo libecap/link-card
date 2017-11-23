@@ -37,6 +37,7 @@ body {
   font-size: 1.5rem;
   padding: .4em .5em;
   margin: 0;
+  text-decoration: none;
 }
 
 .list {
@@ -60,7 +61,7 @@ body {
 .science dt {
   display: inline-block;
   margin: 0;
-  width: 7em;
+  width: 40%;
 }
 
 .science dd {
