@@ -20,42 +20,22 @@ body {
   border-radius: 3px;
 }
 
-a {
-  color: #fff;
-  background-color: #785439;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 1.125rem;
-  padding: .4em .75em .6em;
-  font-family: "Dosis", serif;
-  font-weight: bold;
-}
-
-.link-card:hover {
-  background-color: #cabdb2;
-  border-color: #785439;
-}
-
-.link-card:hover .btn a {
-  background-color: #512200;
-}
-
-.link-card h2 {
-  color: #512200;
-  display: block;
-  font-family: "Dosis", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: .5em;
-  margin: 0;
-}
-
 .link-card p {
   color: #512200;
   display: inline-block;
   font-family: Georgia, serif;
   padding: 0 .75em;
   font-size: 1rem;
+  margin: 0;
+}
+
+.link-card h2 {
+  color: #512200;
+  display: block;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: .4em .5em;
   margin: 0;
 }
 
@@ -73,6 +53,8 @@ a {
   font-family: Georgia, serif;
   font-size: .875rem;
   color: #512200;
+  padding-top: .1em;
+  padding-bottom: .1em;
 }
 
 .science dt {
@@ -90,5 +72,23 @@ a {
   align-content: center;
   margin: 1rem;
   text-align: center;
-  padding: .3em 0;
+}
+
+.btn p {
+  background-color: #785439;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  padding: .4em .75em .6em;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  border-color: #785439;
+}
+
+.link-card:hover .btn p {
+  background-color: #512200;
 }
